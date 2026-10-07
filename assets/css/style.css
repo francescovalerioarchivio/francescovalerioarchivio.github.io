@@ -120,11 +120,21 @@ h2 {
   font-size: 21px;
 }
 
-.hero-photo-placeholder {
+.hero-figure {
+  margin: 0;
+}
+
+.hero-photo {
   width: 100%;
   aspect-ratio: 4 / 5;
-  background: var(--chiaro);
+  object-fit: cover;
+  object-position: center top;
+  display: block;
   border: 1px solid var(--bordo);
+}
+
+.hero-figure figcaption {
+  margin-top: 9px;
 }
 
 .section {
