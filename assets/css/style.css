@@ -314,3 +314,37 @@ footer {
 }
 }
 
+/* FINAL PHOTO ARCHIVE OVERRIDE */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 42px 36px;
+  justify-content: start;
+}
+
+.archive-photo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center;
+  display: block;
+  border: 1px solid var(--bordo);
+  background: var(--chiaro);
+}
+
+@media (max-width: 820px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-photo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+  }
+}
