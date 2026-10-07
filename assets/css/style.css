@@ -220,6 +220,24 @@ footer {
 }
 
 @media (max-width: 820px) {
+
+  .profile-figure {
+  margin: 0 0 38px;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border: 1px solid var(--bordo);
+}
+
+.profile-figure figcaption {
+  margin-top: 9px;
+}
   .header-inner {
     display: block;
   }
