@@ -260,17 +260,15 @@ footer {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 42px 28px;
-}
-
-.archive-photo {
-  margin: 0;
+  grid-template-columns: repeat(2, 400px);
+  gap: 42px 36px;
+  justify-content: start;
 }
 
 .archive-photo img {
   width: 100%;
-  height: 430px;
+  max-width: 400px;
+  height: 300px;
   object-fit: cover;
   object-position: center;
   display: block;
