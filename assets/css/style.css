@@ -268,9 +268,7 @@ footer {
 .archive-photo img {
   width: 100%;
   max-width: 400px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   display: block;
   border: 1px solid var(--bordo);
   background: var(--chiaro);
@@ -309,9 +307,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .archive-photo img {
-    height: auto;
-    aspect-ratio: 4 / 3;
-  }
+ .archive-photo img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 }
 
