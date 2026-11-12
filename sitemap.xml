@@ -230,5 +230,13 @@
   </image:image>
     
   </url>
+  
+<url>
+  <loc>https://francescovalerioarchivio.github.io/fotografie/francesco-valerio-ritratto/</loc>
 
+  <image:image>
+    <image:loc>https://francescovalerioarchivio.github.io/assets/images/francesco-valerio.jpg</image:loc>
+  </image:image>
+</url>
+  
 </urlset>
